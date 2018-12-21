@@ -1,5 +1,5 @@
 {
-    "name": "InstantMagazine/zf2-monolog",
+    "name": "instantMagazine/zf2-monolog",
     "description": "ZF2 integration for monolog",
     "type": "library",
     "license": "BSD-3-Clause",
