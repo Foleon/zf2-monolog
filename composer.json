@@ -1,0 +1,27 @@
+{
+    "name": "InstantMagazine/zf2-monolog",
+    "description": "ZF2 integration for monolog",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Darío Penas",
+            "email": "dario@instantmagazine.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "monolog/monolog": "^1.24"
+    },
+    "autoload": {
+        "psr-4": {
+            "InstantMagazine\\Monolog\\": "src/"
+        },
+        "files": [
+            "src/bcround.php",
+            "src/array_key_last_polyfill.php"
+        ]
+    },
+}
