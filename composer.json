@@ -19,10 +19,6 @@
     "autoload": {
         "psr-4": {
             "InstantMagazine\\Monolog\\": "src/"
-        },
-        "files": [
-            "src/bcround.php",
-            "src/array_key_last_polyfill.php"
-        ]
+        }
     }
 }

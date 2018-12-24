@@ -2,7 +2,7 @@
 return [
     'service_manager' => [
         'factories' => [
-            'Psr\\Log\\LoggerInterface' => 'InstantMagazine\\Monolog\\Logger\\MonologFactory',
+            \Psr\Log\LoggerInterface::class => 'InstantMagazine\\Monolog\\Logger\\MonologFactory',
         ],
 //        'invokables' => [
 //            'GuzzleHttp\\Client' => 'GuzzleHttp\\Client',
